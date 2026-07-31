@@ -72,4 +72,4 @@ jobs:
 
             - name: Run Validation Query
               run: |
-                docker exec test-db /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "SuperStrong!Pass123" -C -Q "SELECT @@VERSION"
+                docker exec test-db /opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P "strongestAvangerPassword01" -C -Q "SELECT @@VERSION"
